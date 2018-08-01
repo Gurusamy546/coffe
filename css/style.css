@@ -1,0 +1,149 @@
+body{
+    
+    margin: auto;
+    background-color: black;
+    align-items: center;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    
+}
+/*div{
+    border: 1px solid white;
+}*/
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+#ind{
+    z-index: 2;
+}
+header img{
+    
+    height: 50px;
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    height: 69px;
+    font-size: 22px;
+    color: seashell;
+    opacity: 1;
+    background-color: black;
+    border-bottom: 1px solid white; 
+    position: fixed;
+    width: 100%;
+    
+    
+}
+.posi{
+    position: fixed;
+}
+a{
+    color: seashell;
+}
+nav span{
+    display: inline ;
+    margin: 20px 20px;
+    text-decoration: underline;
+    
+}
+.title img{
+    height: 50px;
+    padding-left: 10px;
+    float: left;
+}
+.title{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    flex-grow: 1;
+}
+.title span{
+    padding-left: 40px;
+}
+/*img*/
+.main{
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+#mission {
+    height: 700px;
+    
+    background-image: url("C:/Users/GURUSAMY/Desktop/coffeday/css/image/bg.jpg");
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mission .cont{
+    background-color: black;
+    margin: 0 auto;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* sec lay*/
+#tea{
+    width: 1000px;
+    
+    margin: auto;
+    text-align: center;
+}
+#items{
+    
+}
+.item{
+    padding: 5px;
+    opacity: 1;
+    padding: 5px;
+    
+}
+.item img{
+    
+    height: 200px;
+    margin: auto;
+    display: block;
+    padding-bottom: 7px;
+}
+#locations .container{
+    margin: auto;
+    width: 1200px;
+    
+   
+}
+
+#locations{
+    
+    margin-top: 60px;
+    padding-top: 70px;
+    justify-content: space-around;
+    width: 1200px;
+    height: 500px;
+    
+    background-image: url("C:/Users/GURUSAMY/Desktop/coffeday/css/image/img-locations-background.jpg");
+}
+.shop{
+    height: 300px;
+    width: 300px;
+    margin: 5px 20px;
+    flex-basis: 280px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer{
+    text-align: left;
+}
